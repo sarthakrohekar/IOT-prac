@@ -1,6 +1,6 @@
 import time
 import RPi.GPIO as GPIO
-GPIO.clearup()
+GPIO.cleanup()
 GPIO.setmode(GPIO.BCM)
 
 stepPins = [17,18,22,23]
